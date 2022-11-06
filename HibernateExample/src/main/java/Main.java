@@ -19,8 +19,8 @@ public class Main {
         ford.setUser(user);
         user.addAuto(ford);
         userService.updateUser(user);
-//        userService.deleteUser(user);
-//        User user3 = userService.findUser(1);
+        userService.deleteUser(user);
+        User user3 = userService.findUser(1);
        
       
         
